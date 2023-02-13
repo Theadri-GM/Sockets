@@ -51,7 +51,7 @@ class MultiHilo extends Thread{
         }
     }
 }
-public class Server_MultiHilo {
+public class Server_MultiHilo_TCP {
 
     public static void main(String[] args) {
         int numPuertoServidor;
