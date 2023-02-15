@@ -47,7 +47,7 @@ class MultiHilo extends Thread{
                 lineaRecibida = new SimpleDateFormat(lineaRecibida).format(new Date());
                 // Y mostramos lineaRecibida.
                 pw.println(lineaRecibida);
-                // Y también vaciamos el PrinterWriter que tenemos creado.
+                // Y nos aseguramos de que el mensaje se ha enviado.
                 pw.flush();
             }
         } catch (IOException e) {
